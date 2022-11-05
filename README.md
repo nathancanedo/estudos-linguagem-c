@@ -1,2 +1,2 @@
-# estudos-linguagem-c
+# Linguagem C
  Meus estudos em linguagem C
