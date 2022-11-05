@@ -1,8 +1,15 @@
 #include <stdio.h>
 #include <locale.h>
-#define TOTAL 22
 
 void main() {
     setlocale(LC_ALL, "Portuguese");
-    printf("%d", TOTAL);
+    char r;
+    char s;
+    printf("Digite apenas uma letra: ");
+    fflush(stdin);
+    r = getchar();
+    printf("Digite outra letra: ");
+    fflush(stdin);
+    s = getchar();
+    printf("Você digitou é as letras \"%c\" e \"%c\"", r, s);
 }
