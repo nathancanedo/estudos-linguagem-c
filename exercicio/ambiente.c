@@ -1,16 +1,8 @@
 #include <stdio.h>
 #include <locale.h>
-
-/* Comentário
-    de
-    Multiplas
-    Linhas
-*/
-
 void main() {
-    setlocale(LC_ALL, "Portuguese"); // muda a zona de codificação de caracteres
-    printf("Oi tudo bem?\a\n");
-    printf("C é \n\"SUPER\" \n Fácil!");
+    setlocale(LC_ALL, "Portuguese");
+    printf("O %s tem %i anos de idade.\n", "Gustavo Guanabara", 39);
+    printf("Seu peso atual é de %6.2fKg\n", 97.5);
+    printf("O seu sexo é %c", 'M');
 }
-
-// Olá, tudo bem?
