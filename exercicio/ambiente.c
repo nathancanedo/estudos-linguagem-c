@@ -1,8 +1,12 @@
 #include <stdio.h>
 #include <locale.h>
-/*
-Programa criado por Nathan Canedo
-/*
+
+/* Comentário
+    de
+    Multiplas
+    Linhas
+*/
+
 void main() {
     setlocale(LC_ALL, "Portuguese"); // muda a zona de codificação de caracteres
     printf("Oi tudo bem?\a\n");
