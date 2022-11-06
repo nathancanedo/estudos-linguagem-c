@@ -1,15 +1,14 @@
 #include <stdio.h>
 #include <locale.h>
 
-void main() {
+void main(){
     setlocale(LC_ALL, "Portuguese");
-    char r;
-    char s;
-    printf("Digite apenas uma letra: ");
-    fflush(stdin);
-    r = getchar();
-    printf("Digite outra letra: ");
-    fflush(stdin);
-    s = getchar();
-    printf("Você digitou é as letras \"%c\" e \"%c\"", r, s);
+
+    char nome[30];
+    char endereco[40];
+    printf("Digite seu nome: ");
+    gets(nome);
+    printf("Onde você mora? ");
+    gets(endereco);
+    printf("Seja bem vindo, %s! Seu endereço é %s!", nome, endereco);
 }
