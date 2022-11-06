@@ -48,9 +48,9 @@ void main() {
     printf("\nListagem Completa\n");
     printf("---------------------------------------\n");
     printf("NOME\t\tSEXO\tNOTA\n");
-    printf("%s\t\t%3c\t%4.1f\n", nome1, sexo1, nota1);
-    printf("%s\t\t%3c\t%4.1f\n", nome2, sexo2, nota2);
-    printf("%s\t\t%3c\t%4.1f\n", nome3, sexo3, nota3);
+    printf("%s\t%3c\t%4.1f\n", nome1, sexo1, nota1);
+    printf("%s\t%3c\t%4.1f\n", nome2, sexo2, nota2);
+    printf("%s\t%3c\t%4.1f\n", nome3, sexo3, nota3);
     printf("---------------------------------------\n");
 
 }
