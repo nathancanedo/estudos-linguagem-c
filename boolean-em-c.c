@@ -8,11 +8,11 @@ enum boolean {
 typedef enum boolean bool;
 
 void main() {
-    bool c = false;
+    bool c = true;
     bool e = false;
 
     if (c == true) {
-        printf("Esta verdadeiro");
+        printf("Esta VERDADEIRO");
     } else
         if (c == false) {
             printf("Esta FALSO");

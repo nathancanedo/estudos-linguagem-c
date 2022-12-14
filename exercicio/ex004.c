@@ -3,21 +3,16 @@
 
 void main() {
     setlocale(LC_ALL, "Portuguese");
-    char nome1[30];
-    char nome2[30];
-    char nome3[30];
+    char nome1[20], nome2[20], nome3[20];
 
-    char sexo1;
-    char sexo2;
-    char sexo3;
+    char sexo1, sexo2, sexo3;
 
-    float nota1;
-    float nota2;
-    float nota3;
+    float nota1, nota2, nota3;
 
     printf("<<< EX004 - Listagem\n\n");
     printf("Cadastrando a primeira pessoa:\n");
     printf("---------------------------------------\n");
+    fflush(stdin);
     printf("NOME: ");
     gets(nome1);
     printf("SEXO [M/F]: ");
@@ -43,14 +38,14 @@ void main() {
     printf("SEXO [M/F]: ");
     sexo3 = getchar();
     printf("NOTA: ");
-    scanf("%f", &nota3);
+    scanf("%f", &nota3);0-
 
     printf("\nListagem Completa\n");
     printf("---------------------------------------\n");
-    printf("NOME\t\tSEXO\tNOTA\n");
-    printf("%s\t%3c\t%4.1f\n", nome1, sexo1, nota1);
-    printf("%s\t%3c\t%4.1f\n", nome2, sexo2, nota2);
-    printf("%s\t%3c\t%4.1f\n", nome3, sexo3, nota3);
+    printf("NOME               SEXO    NOTA\n");
+    printf("%-20s%c\t%6.1f\n", nome1, sexo1, nota1);
+    printf("%-20s%c\t%6.1f\n", nome2, sexo2, nota2);
+    printf("%-20s%c\t%6.1f\n", nome3, sexo3, nota3);
     printf("---------------------------------------\n");
 
 }

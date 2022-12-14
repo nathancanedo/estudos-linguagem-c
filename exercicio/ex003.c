@@ -13,6 +13,7 @@ void main() {
     scanf("%u", &idade);
     printf("Quanto você pesa? (Kg)");
     scanf("%f", &peso);
+    printf("-------------<<<<<<Processando>>>>>>-------------\n");
     printf("Seu nome é %s, você tem %u anos e pesa %.2fKg.", nome, idade, peso);
 
 }
